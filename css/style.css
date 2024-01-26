@@ -1,0 +1,48 @@
+*{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+header
+{
+    height: 100vh;
+    background-image: url("../img/h5-revolution-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: alternate-gothic-extra-cond, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:white;
+}
+
+/* BARRE DE NAVIGATION */
+nav
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    list-style: none;
+}
+
+.navigation li{
+    padding: 15px;
+    color:white;
+}
+
+
+ 
