@@ -14,9 +14,7 @@ header
     background-image: url("../img/h5-revolution-img-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: alternate-gothic-extra-cond, sans-serif;
-    font-style: normal;
-    font-weight: bold;
+    
     color:white;
 }
 
@@ -29,20 +27,57 @@ nav
     justify-content: space-between;
     height: 200px;
     background: rgba(0, 0, 0, 0.5);
+    padding-left: 35px;
+    padding-right: 35px;
+    align-items: center
+    
+
 
 }
 
-nav ul{
+nav ul
+{
     display: flex;
     flex-direction: row;
     align-content: center;
     list-style: none;
+    
 }
 
-.navigation li{
+.reseaux img
+{
+    width: 25px;
+    height: 25px;
+
+}
+nav h1
+{
+    font-family: alternate-gothic-extra-cond, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    align-content: center;
+
+
+}
+
+.navigation a{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+
+}
+
+.reseaux li{
+    font-family: 'Oswald', sans-serif;
     padding: 15px;
     color:white;
 }
+
+
+
 
 
  
