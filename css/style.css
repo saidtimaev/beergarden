@@ -10,6 +10,8 @@
 /* HEADER */
 header
 {
+    display: flex;
+    justify-content: center;
     height: 100vh;
     background-image: url("../img/h5-revolution-img-1.jpg");
     background-repeat: no-repeat;
@@ -59,7 +61,7 @@ nav h1
 
 .reseaux svg:hover
 {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 
@@ -85,7 +87,10 @@ nav h1
     color:white;
 }
 
-
+.first
+{
+    padding-top: 240px;
+}
 
 
 
