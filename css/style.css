@@ -92,6 +92,29 @@ nav h1
     padding-top: 240px;
 }
 
+.banner
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 60px;
+    background-color: #c59d5f;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.banner p
+{
+
+
+}
+
 
 
  
