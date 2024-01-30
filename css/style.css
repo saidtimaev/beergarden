@@ -109,12 +109,30 @@ nav h1
     
 }
 
-.banner p
+.containerBeer
 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.containerBeer img
+{
+    background-image: url("../img/h5-el-holder-img-1-1.jpg");
+    width: 50%;
 
 
 }
 
+.articleBeer
+{
+    width: 50%;
+}
 
-
- 
+.articleBeer h2
+{
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+}
