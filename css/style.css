@@ -51,15 +51,16 @@ nav h1
     align-content: center;
 }
 
-.reseaux svg
+.reseaux i
 {
     width: 25px;
     height: 25px;
     transition: 0.5s;
 
+
 }
 
-.reseaux svg:hover
+.reseaux i:hover
 {
     opacity: 0.5;
 }
@@ -82,9 +83,12 @@ nav h1
 
 
 .reseaux li{
-    font-family: 'Oswald', sans-serif;
-    padding: 15px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
     color:white;
+    font-size: 20px;
 }
 
 .first
@@ -96,18 +100,23 @@ nav h1
 {
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
-    font-size: 60px;
+    font-size: 63px;
     background-color: #c59d5f;
-    height: 400px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: justify;
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 50px;
-    padding-bottom: 50px;
     
+    padding: 50px 0px;
 }
+
+.banner p{
+    display: inline-block;
+    text-align: justify;
+
+}
+
+
+
 
 .containerBeer
 {
@@ -128,11 +137,38 @@ nav h1
 
 .articleBeer
 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 50%;
+    text-align: center;
+}
+
+.articleBeer h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    font-size: 50px;
+
 }
 
 .articleBeer h2
 {
     font-style:italic;
     font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+
+}
+
+.articleBeer p{
+
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15px;
+
+
+}
+
+.articleBeer a{
+    background-color: #c59d5f;
+    width: 60px;
 }
