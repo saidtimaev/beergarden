@@ -169,8 +169,8 @@ nav h1
     flex-direction: column;
     width: 50%;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .articleBeer h1, .articlePub h1{
@@ -221,4 +221,12 @@ nav h1
 
 .articleBeer a:hover, .articlePub a:hover{
     opacity: 0.8;
+}
+
+/* SECTION GALERIE */
+
+.galerie{
+
+    display: flex;
+    flex-direction: row;
 }
