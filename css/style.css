@@ -235,24 +235,24 @@ nav h1
     position: relative;
 }
 
-.croix{
-    display: inline-block;
+.imgGallerie span{
     position: absolute;
     color: white;
+    font-size: 100px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* This will center the cross properly */
-    font-size: 100px;
-    transition: all 0.3s ease-in-out;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
     opacity: 0;
+    transition: transform 0.3s ease-in-out;
+    
+    
+
     
 }
 
-.imgGallerie:hover .croix{
-
+.imgGallerie:hover span{
+    transform: rotate(90deg) translate(-50%, -50%);
     opacity: 1;
-    transform: rotate(360deg);
-    background-color: red;
-    transform: translate(-50%, -50%); /* This will center the cross properly */
-
+    
 }
