@@ -39,7 +39,6 @@ nav ul
     flex-direction: row;
     align-content: center;
     list-style: none;
-    
 }
 
 nav h1
@@ -63,7 +62,6 @@ nav h1
 {
     color: gray;
     transition: 0.5s;
-
 }
 
  /* RESEAUX */
@@ -72,17 +70,15 @@ nav h1
     width: 25px;
     height: 25px;
     transition: 0.5s;
-
-
 }
 
 .reseaux i:hover
 {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .reseaux li{
-    
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
@@ -113,14 +109,12 @@ nav h1
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     padding: 50px 0px;
 }
 
 .banner p{
     display: inline-block;
     text-align: justify;
-
 }
 
 
@@ -132,8 +126,6 @@ nav h1
     flex-direction: row;
     align-items: center;
     height: 733px;
-    
-
 }
 
 .containerImageArticle1 
@@ -174,11 +166,9 @@ nav h1
 }
 
 .articleBeer h1, .articlePub h1{
-
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 10px;
     font-size: 50px;
-
 }
 
 .articleBeer h2, .articlePub h2
@@ -186,7 +176,6 @@ nav h1
     font-style:italic;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 15px;
-
 }
 
 .articleBeer p, .articlePub p{
@@ -195,12 +184,9 @@ nav h1
     padding-bottom: 15px;
     color: gray;
     line-height: 2;
-
-
 }
 
 .articleBeer a, .articlePub a{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,13 +200,13 @@ nav h1
     border-radius: 5px;
     color: white;
     transition: opacity 0.5s;
-
 }
 
 
 
 .articleBeer a:hover, .articlePub a:hover{
     opacity: 0.8;
+    cursor: pointer;
 }
 
 /* SECTION GALERIE */
@@ -231,28 +217,36 @@ nav h1
     flex-direction: row;
 }
 
+.imgGallerie img{
+    transition: all 0.3s ease-in-out;
+}
+
 .imgGallerie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    background-color: #c59d5f;
+    overflow: hidden;
 }
 
 .imgGallerie span{
     position: absolute;
     color: white;
     font-size: 100px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transform-origin: center;
     opacity: 0;
-    transition: transform 0.3s ease-in-out;
-    
-    
-
-    
+    transition: all 0.3s ease-in-out;
 }
 
 .imgGallerie:hover span{
-    transform: rotate(90deg) translate(-50%, -50%);
+    transform: rotate(90deg);
     opacity: 1;
+    cursor: pointer;
     
+}
+
+.imgGallerie:hover img{
+    opacity: 0.3;
+    transform: scale(1.1);
+    cursor: pointer;
 }
