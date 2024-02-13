@@ -299,7 +299,6 @@ nav h1
 .parallax{
     background-image: url("../img/h5-parallax-img-2.jpg");
     height: 300px;
-    margin-bottom: 1000px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -322,3 +321,59 @@ nav h1
     font-size: 20px;
 }
 
+/* SECTION GOOGLE MAPS */
+
+.googleMap{
+    height: 600px;
+    position: relative;
+   
+}
+
+.bgMap{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.8743872549019608) 25%, rgba(0,0,0,0.7343312324929971) 50%, rgba(0,0,0,0.8715861344537815) 75%);
+    position: absolute;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 70;
+}
+
+.map-responsive {
+    position: absolute;
+    left:0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    filter: grayscale(1);
+}
+
+.googleMap img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 80;
+
+}
+
+.map-responsive iframe {
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+   }
+
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.918);
+    
+}
