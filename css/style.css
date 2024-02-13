@@ -294,4 +294,31 @@ nav h1
     color: #c59d5f;
 }
 
+/* SECTION EFFET PARALLAXE */
+
+.parallax{
+    background-image: url("../img/h5-parallax-img-2.jpg");
+    height: 300px;
+    margin-bottom: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax h1{
+    color: white;
+    font-size: 50px;
+}
+
+.parallax p{
+    margin-top: 15px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
 
