@@ -269,6 +269,7 @@ nav h1
     position: relative;
     width: 300px;
     z-index: 1;
+    transition: all 0.3s ease-in-out;
 }
 
 .service p{
@@ -281,14 +282,16 @@ nav h1
 .service h1{
     margin-top: 15px;
     font-size: 20px;    
+    transition: all 0.3s ease-in-out;
+
 }
 
-.backgroundService {
-    z-index: 0;
-    height: 100px;
-    width: 100px;
-    background: radial-gradient(closest-side, #c59c5f, #c59c5f5c, #c59c5f00);
-    position: absolute;
-    top: 0;
-    left: 50;
+.service:hover img{
+    filter: sepia(1);
 }
+
+.service:hover h1{
+    color: #c59d5f;
+}
+
+
